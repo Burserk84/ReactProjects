@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  direction: rtl;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 300px;
+  box-shadow: 0 0 20px rgba(117, 117, 117, 0.5);
+}
+
+header input {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid;
+}
+
+header button {
+  width: 100px;
+  background-color: #f03;
+  color: white;
+}
+
+.gallary{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallary img{
+  width: 25%;
+  height: 400px;
+  object-fit: cover;
+}

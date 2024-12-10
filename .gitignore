@@ -1,0 +1,8 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/smartsuite/node_modules
+/Lorem-Ipsum-Generator/node_modules
+/gallery-search-react/node_modules
+
+/smartsuite/build
